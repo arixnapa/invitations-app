@@ -1,6 +1,6 @@
 # Owl Mail
 
-Ever thought about how much time and effort it takes just to invite friends for a pizza? Long messages back and forth, waiting anxiously for their response... Well, say goodbye to all that hassle! Introducing the Owl App, designed to simplify event planning and make inviting friends in few clicks!
+Ever thought about how much time and effort it takes just to invite friends for a pizza? Long messages back and forth, waiting anxiously for their response... Well, say goodbye to all that hassle! Introducing the Owl Mail App, designed to simplify event planning and inviting friends by email in a few clicks!
 
 ![homepage](homepage.png)
 
