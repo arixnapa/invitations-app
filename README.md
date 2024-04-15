@@ -2,6 +2,8 @@
 
 Ever thought about how much time and effort it takes just to invite friends for a pizza? Long messages back and forth, waiting anxiously for their response... Well, say goodbye to all that hassle! Introducing the Owl App, designed to simplify event planning and make inviting friends in few clicks!
 
+![homepage](homepage.png)
+
 ## Built with
 
 - React.js (^18.2.0)
@@ -26,7 +28,7 @@ Run `npm install` in the project folder to install dependencies related to Expre
 
 ### Database Prep
 
-[database](db-modeling.png)
+![database](db-modeling.png)
 
 Create `.env` file in project directory and add
 

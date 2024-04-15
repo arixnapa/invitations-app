@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import background from "../background.png";
+import Button from "react-bootstrap/Button";
 
 export default function Home() {
   return (
@@ -10,14 +10,14 @@ export default function Home() {
         alt="homepage"
         style={{ width: "1200px", height: "auto" }}
       ></img>
-
-      <Link
-        to={"/invite"}
+      <Button
+        href="http://localhost:5173/invite"
+        variant="outline-secondary"
         className="fs-2"
-        style={{ position: "absolute", bottom: "25%", right: "33%" }}
+        style={{ position: "absolute", bottom: "25%", right: "37%" }}
       >
         Invite Friends
-      </Link>
+      </Button>
     </div>
   );
 }

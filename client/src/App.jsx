@@ -7,29 +7,12 @@ import Invite from "./pages/Invite";
 import Events from "./pages/Events";
 import Event from "./pages/Event";
 import Confirmation from "./pages/Confirmation";
+import NavBar from "./components/NavBar";
 
 export default function App() {
   return (
     <div className="container text-center">
-      <div id="sidebar">
-        <ul className="nav justify-content-end">
-          <li className="nav-item">
-            <Link to={"/"} className="nav-link">
-              Home
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to={"/invite"} className="nav-link">
-              Invite
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to={"/events"} className="nav-link">
-              Events
-            </Link>
-          </li>
-        </ul>
-      </div>
+      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/invite" element={<Invite />} />
